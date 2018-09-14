@@ -34,5 +34,6 @@ var MailInboxPage = Object.create(Page, {
 });
 
 module.exports = MailInboxPage;
+// Changes in gitHub
 
 //My small changes
