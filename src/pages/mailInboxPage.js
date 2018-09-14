@@ -28,10 +28,11 @@ var MailInboxPage = Object.create(Page, {
                 console.log("\n" + title.getText());
             });
             console.log(tabTitles);
-            expect(tabTitles).contain('ХУЙ');
+            expect(tabTitles).contain(tabName);
         }
     }
 });
 
 module.exports = MailInboxPage;
 
+//My small changes
